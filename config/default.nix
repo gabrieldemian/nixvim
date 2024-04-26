@@ -38,7 +38,9 @@
     ./opts.nix
 
     ./extra.nix
+    ./trouble.nix
     ./lualine.nix
+    ./conform.nix
     ./transparent.nix
     ./bufferline.nix
     ./lsp/lsp.nix
@@ -46,7 +48,7 @@
     ./lsp/lspsaga.nix
 
     ./telescope.nix
-    ./lint.nix
+    ./none-ls.nix
     ./bufferline.nix
     ./rustaceanvim.nix
     ./cmp.nix

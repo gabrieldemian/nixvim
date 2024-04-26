@@ -28,7 +28,7 @@
 
     require("nvim-surround").setup()
 
-    Map("n", "lg", ": LazyGit<cr>")
+    Map("n", "<leader>lg", ": LazyGit<cr>")
 
     local builtin = require("telescope.builtin")
     local telescope = require("telescope")
