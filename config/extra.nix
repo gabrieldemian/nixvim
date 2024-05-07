@@ -1,6 +1,5 @@
 {pkgs, ...}: {
   extraPlugins = with pkgs.vimPlugins; [
-    nvim-surround
     plenary-nvim
     telescope-file-browser-nvim
     telescope-ui-select-nvim
